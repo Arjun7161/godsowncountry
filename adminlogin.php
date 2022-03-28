@@ -34,7 +34,7 @@ session_start();
         </nav>
         <!-- Admin login -->
         <section>
-        <div class="container">
+        <div class="container" >
         <form action="adminval.php" method="post">
             <div class="row">
             <h1>Admin Log In</h1>
