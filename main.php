@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<div class="mainbg">
+<div class="bg-main">
     <div class="high">
         
 

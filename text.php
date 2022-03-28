@@ -31,7 +31,7 @@ if(!isset($_SESSION['username'])){
                 <li><a class="nav-link" href="index.php">Home</a></li>
                 <li><a class="nav-link" href="about.php">About Us</a></li>
                 <li><a class="nav-link" href="upload.php">Upload Image</a></li>
-                <li><a class="nav-link" href="text.php">WriteStory</a></li>
+                <li><a class="nav-link" href="location.php">Location</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>

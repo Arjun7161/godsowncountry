@@ -43,10 +43,9 @@ if(!isset($_SESSION['username'])){
         <div class="content">
             <div class="col">
              <h1>Kerala</h1>
-            <p1>What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</p1>
+            <p1>For many travelers, Kerala is South India's most serenely beautiful state. This slender coastal strip is defined by its layered landscape: almost 373 miles (600km) of glorious Arabian Sea coast and beaches; a languid network of glistening backwaters; and the spice- and tea-covered hills of the Western Ghats, dotted with fiercely protected wildlife reserves and cool hill stations such as Munnar. Just setting foot on this swathe of soul-soothing, palm-shaded green will slow your subcontinental stride to a blissed-out amble. Kerala is a world away from the hectic action of the rest of India, its long, fascinating backstory illuminated by historically evocative cities like Kochi (Cochin) and Thiruvananthapuram (Trivandrum).
+
+Besides the famous backwaters, elegant houseboats, ayurvedic treatments and delicately spiced, taste-bud-tingling cuisine, Kerala is home to wild elephants, exotic birds and the odd tiger, while vibrant traditions such as Kathakali, theyyam (a trance-induced ritual), temple festivals and snake-boat races frequently bring even the smallest villages to life.</p1>
                 </div>
                 <div class="col">
                     <div class="card card1">

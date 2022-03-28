@@ -19,6 +19,7 @@ if(!isset($_SESSION['adminname'])){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+<div class="bg-update">
 <div class="high">
         
 
@@ -36,7 +37,7 @@ if(!isset($_SESSION['adminname'])){
         </div>
 <div class="container">
     <div class="col pt-5">
-        <h2>Update Data</h2>
+        <br>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>?id=<?php echo $row['id'];?>" method="post">
         <div class="form-group">
             <label for="update_title">Title</label>
@@ -53,5 +54,7 @@ if(!isset($_SESSION['adminname'])){
 </div>
 
 </div>
+</div>
+
 </body>
 </html>

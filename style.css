@@ -90,7 +90,7 @@ flex-basis: 50%;
 }
  .content .col  p1{
     font-size: 20px;
-   color:cadetblue;
+   color:aliceblue;
    line-height: 20px;
    text-transform:capitalize;
    
@@ -234,15 +234,14 @@ form .form-group label{
  .card.card4 a{
     color: black;
 }
- .mainbg{
+.bg-main{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url(Img\Ernakulam.jpg);
+    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url("Img/pexels-jimmi-kamballur-6194591.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
 }
-
 .bg-text{
     height: 100%;
     width: 100%;
@@ -284,3 +283,14 @@ form .form-group label{
 .container label{
     color:bisque;
 }
+
+/* update pages*/
+.bg-update{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url("Img/kathakalii.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
