@@ -32,7 +32,8 @@ if(!isset($_SESSION['username'])){
         </nav>
         </div>
 <div class="container">
-    
+    <br>
+    <br>
         <h2>"God's own country" is a website that gathers reviews relating to activities and experiences of travellers from Kerala. Whether you are travelling alone to explore the culture or if it's a family vacation you're on, you can share stories and pictures of all the fascinating things you encounter on your trip. If you're planning a trip to Kerala, this is your one stop to read real reviews that would help prepare you for the unexpected. Take your time browsing through the picture archive; you will surely be awe-struck by the beauty and wonder of God's own country.</h2>
 
 </div>
