@@ -34,12 +34,9 @@ if(!isset($_SESSION['username'])){
             </ul>
         </nav>
         </div>
-     <table>
-         <tr>
-             <td>#</td>
-             <td>Name</td>
-             <td>File</td>
-</tr>
+        <section>
+    <div class="container">
+        <div class="row">
 <?php
 $i=1;
 $rows= mysqli_query($conn,"SELECT * FROM upload ORDER BY id DESC");
@@ -51,9 +48,10 @@ $rows= mysqli_query($conn,"SELECT * FROM upload ORDER BY id DESC");
         <td><img src="files/<?php echo $row['file'];?>" width=300 alt=""></td>
     </tr>
     <?php endforeach; ?>
-</table>
-<footer>
-        <p>Copyright CMM007 | 2022 | Gods Own Country</p> 
-    </footer>
+    </div>
+    </div>
+    </section>
+    <br>
+
 </body>
 </html>
