@@ -30,16 +30,16 @@ require'upconn.php';
             <ul>
             <h1>Welcome <?php echo $_SESSION['username']; ?> </h1>
                 <li><a class="nav-link" href="index.php">Home</a></li>
-                <li><a class="nav-link" href="about.php">About Us</a></li>
+                <li><a class="nav-link" href="location.php">Location</a></li>
                 <li><a class="nav-link" href="upload.php">Upload File</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
         </div>
-     <table>
-         <tr>
-             
-</tr>
+        <br>
+        <section>
+        <div class="container">
+        <div class="row">
 <?php
 $i=1;
 $rows= mysqli_query($conn,"SELECT * FROM upload  WHERE name='palakkad' ORDER BY id DESC");
@@ -49,7 +49,9 @@ $rows= mysqli_query($conn,"SELECT * FROM upload  WHERE name='palakkad' ORDER BY 
         <td><img src="files/<?php echo $row['file'];?>" width=300 alt=""></td>
     </tr>
     <?php endforeach; ?>
-</table>
+    </div>
+    </div>
+    </section>
 
 </div>
 </div>
