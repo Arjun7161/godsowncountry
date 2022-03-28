@@ -33,11 +33,8 @@
         
         <div class="content">
             <div class="col">
-             <h1>Kerala</h1>
-            <p1>What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</p1>
+             <h1>WELCOME TO</h1>
+            <p1>GODS OWN COUNTRY</p1>
                 </div>
                 <div class="col">
                     <div class="card card3">
