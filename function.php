@@ -67,7 +67,7 @@ if(!empty($_POST['title']) && !empty($_POST['content'])){
 
 }
 
-//update function to get the data
+//update function to get the data for users
 
 function update_get(){
     if(isset($_GET['id']) && is_numeric($_GET['id'])){
@@ -148,3 +148,4 @@ function get_all_edit_data(){
 
     }
 }
+
