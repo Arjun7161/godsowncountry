@@ -42,7 +42,7 @@ require'upconn.php';
         <div class="row">
 <?php
 $i=1;
-$rows= mysqli_query($conn,"SELECT * FROM upload  WHERE name='trivandram' or name='tiruvananthapuram' ORDER BY id DESC");
+$rows= mysqli_query($conn,"SELECT * FROM upload  WHERE name='trivandaram' or name='tiruvananthapuram' ORDER BY id DESC");
 ?>
 <?php foreach($rows as $row):?>
     <tr>
