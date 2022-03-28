@@ -33,7 +33,6 @@ if(!isset($_SESSION['adminname'])){
             <h1>Welcome <?php echo $_SESSION['adminname']; ?></h1>
                 <li><a class="nav-link" href="admin.php">Home</a></li>
                 <li><a class="nav-link" href="delete.php">Update/Delete</a></li>
-                <li><a class="nav-link" href="login.php">Log In</a></li>
                 <li><a class="nav-link" href="adminsignup.php">Admin Sign Up</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
@@ -48,6 +47,7 @@ Besides the famous backwaters, elegant houseboats, ayurvedic treatments and deli
                 </div>
         
     </div>
+</div>
     <footer>
         <p>Copyright CMM007 | 2022 | Gods Own Country</p>
     </footer>
