@@ -27,10 +27,8 @@
 
             <ul>
                
-                
+                <li><a class="nav-link" href="main.php">Main Page</a></li>
                 <li><a class="nav-link" href="login.php">LogIn</a></li>
-               
-               
             </ul>
         </nav>
         <!--sign in -->
