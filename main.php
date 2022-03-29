@@ -24,7 +24,7 @@
         <nav>
             <ul>
             <h1>Welcome </h1>
-                <li><a class="nav-link" href="signup.php">Sign Up</a></li>
+                <li><a class="nav-link" href="signup.php">Sign-Up</a></li>
                 <li><a class="nav-link" href="about.php">About Us</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
@@ -34,14 +34,14 @@
         <div class="content">
             <div class="col">
              <h1>WELCOME TO</h1>
-            <p1>GODS OWN COUNTRY</p1>
+            <p1>GOD'S OWN COUNTRY !</p1>
                 </div>
                 <div class="col">
                     <div class="card card3">
-                        <a href="adminlogin.php" class="button">Admin Log In</a>
+                        <a href="adminlogin.php" class="button">Admin LogIn</a>
                     </div>
                     <div class="card card4">
-                        <a href="login.php" class="button">User Log In</a>
+                        <a href="login.php" class="button">User LogIn</a>
                     </div>
                 </div>
                 </div>

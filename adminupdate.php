@@ -1,5 +1,5 @@
 <?php
-require_once 'function.php';
+require_once 'functions.php';
 $row=update_get();
 session_start();
 if(!isset($_SESSION['adminname'])){
