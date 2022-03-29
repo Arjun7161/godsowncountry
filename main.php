@@ -24,7 +24,7 @@
         <nav>
             <ul>
             <h1>Welcome </h1>
-                <li><a class="nav-link" href="signup.php">Sign-Up</a></li>
+                <li><a class="nav-link" href="signup.php"> User Sign-Up</a></li>
                 <li><a class="nav-link" href="about.php">About Us</a></li>
              
             </ul>
