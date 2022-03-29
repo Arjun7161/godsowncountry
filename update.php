@@ -30,6 +30,7 @@ if(!isset($_SESSION['username'])){
             <h1>Welcome <?php echo $_SESSION['username']; ?> </h1>
                 <li><a class="nav-link" href="index.php">Home</a></li>
                 <li><a class="nav-link" href="storylist.php">Stories</a></li>
+                <li><a class="nav-link" href="upload.php">Upload Image</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
