@@ -28,7 +28,7 @@ session_start();
 
             <ul>
                 
-                <li><a class="nav-link" href="login.php">Log In</a></li>
+                <li><a class="nav-link" href="main.php">Main Page</a></li>
                 <li><a class="nav-link" href="signup.php">Sign-Up</a></li>
                
             </ul>
